@@ -9,6 +9,9 @@ def faktoriyel(b):
             i += 1
         return a
 sonuc = faktoriyel(x)
+
+
+## Cos(x) hesapalama radyana göre
 y = x*3.1415/180
 sonuc3 = ((1)-((y**2)/faktoriyel(2)) + ((y**4)/faktoriyel(4)) - (((y**6)/faktoriyel(6))))
 print(sonuc3)
